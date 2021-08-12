@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".Home">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-36dp"
+        android:layout_marginRight="-36dp"
+        android:text="@string/welcome"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="32dp"
+        android:background="@color/cardview_light_background"
+        android:text="@string/edit"
+        android:textSize="25dp"
+        android:onClick="update"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/update"
+        android:layout_marginTop="30dp"
+        android:background="@color/cardview_light_background"
+        android:text="@string/want"
+        android:textAlignment="gravity"
+        android:textSize="25dp"
+        android:onClick="want"/>
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="36dp"
+        android:background="@color/cardview_light_background"
+        android:text="@string/search_doner"
+        android:textSize="25dp"
+        android:onClick="donor"/>
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/weather"
+        android:layout_marginTop="41dp"
+        android:text="@string/bank"
+        android:background="@color/cardview_light_background"
+        android:textSize="25dp"
+        android:onClick="bank"/>
+
+
+</RelativeLayout>

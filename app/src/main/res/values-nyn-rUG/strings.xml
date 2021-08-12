@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyDonor</string>
+    <string name="welcome">Twakwakira aha MYDonor, hereza eshagama ochungure beingi</string>
+    <string name="langau">Hindura orurimi</string>
+    <string name="settings">setings</string>
+    <string name="prefer" translatable="false">preferences</string>
+    <string name="edit">Hindura ebirikugambaho</string>
+    <string name="logout">Kiinga</string>
+    <string name="share">Bagana aha whatsApp</string>
+    <string name="help">Tunga obuyambi</string>
+    <string name="bank">ibikiro rye shagama</string>
+    <string name="search_doner">ronda omuhi we shagama</string>
+    <string name="want">Noyenda Kuha Eshagama?</string>
+</resources>

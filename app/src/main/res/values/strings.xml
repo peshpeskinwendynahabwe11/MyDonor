@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyDonor</string>
+    <string name="welcome">Welcome to MyDonor, where we are meant to save hundreds of lives</string>
+    <string name="langau">change language</string>
+    <string name="settings">settings</string>
+    <string name="prefer" translatable="false">preferences</string>
+    <string name="edit">Edit profile</string>
+    <string name="logout">Logout</string>
+    <string name="share">Share Via WhatsApp</string>
+    <string name="help">Help and Feedback</string>
+    <string name="bank">blood bank</string>
+    <string name="search_doner">search doner</string>
+    <string name="want">want to be a donor?</string>
+</resources>
